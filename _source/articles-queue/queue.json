@@ -1,0 +1,66 @@
+{
+  "published": [
+    {
+      "id": "article-npd",
+      "num": "01",
+      "title": "当爱变成雷区",
+      "subtitle": "NPD原生家庭创伤如何重塑一个女孩的神经系统，又如何让她在最亲密的关系里，最难以平静。",
+      "tags": ["NPD创伤", "神经科学", "依恋理论"],
+      "emoji": "🧠",
+      "accentColor": "var(--accent)",
+      "readTime": "约 15 分钟",
+      "file": "ArticleNPD.tsx",
+      "routeId": "article-npd"
+    },
+    {
+      "id": "article-situation",
+      "num": "02",
+      "title": "每天十二小时，加上一场搬家",
+      "subtitle": "她的情绪，为什么现在最难。长期缺席的伴侣和失去熟悉城市的双重触发，深度分析与应对指南。",
+      "tags": ["情境分析", "搬家", "日常指南"],
+      "emoji": "💙",
+      "accentColor": "var(--accent2)",
+      "readTime": "约 14 分钟",
+      "file": "ArticleSituation.tsx",
+      "routeId": "article-situation"
+    }
+  ],
+  "queue": [
+    {
+      "id": "article-3",
+      "num": "03",
+      "title": "「我没事」是一种生存方式，不是坚强",
+      "subtitle": "每次说「我没事」，她可能不是在告诉你真相，而是在使用一个从小学会的、最有效的自我保护工具。",
+      "tags": ["情绪心理", "创伤反应", "自我否认"],
+      "emoji": "🤍",
+      "accentColor": "var(--accent)",
+      "readTime": "约 12 分钟",
+      "file": "Article3.tsx",
+      "routeId": "article-3"
+    },
+    {
+      "id": "article-4",
+      "num": "04",
+      "title": "爆发之后的羞耻感",
+      "subtitle": "情绪爆发之后，往往跟着一场更深的痛苦——不是因为发生了什么，而是她开始攻击自己「为什么又这样了」。",
+      "tags": ["情绪心理", "羞耻感", "自我攻击"],
+      "emoji": "💜",
+      "accentColor": "var(--accent2)",
+      "readTime": "约 13 分钟",
+      "file": "Article4.tsx",
+      "routeId": "article-4"
+    },
+    {
+      "id": "article-5",
+      "num": "05",
+      "title": "身体记住了一切",
+      "subtitle": "情绪说不出口的时候，身体会代劳。头痛、胃痛、肩膀紧绷——这些不一定是「病」，可能是神经系统在用身体语言说话。",
+      "tags": ["情绪心理", "躯体化", "神经科学"],
+      "emoji": "🌿",
+      "accentColor": "var(--accent)",
+      "readTime": "约 12 分钟",
+      "file": "Article5.tsx",
+      "routeId": "article-5"
+    }
+  ]
+}

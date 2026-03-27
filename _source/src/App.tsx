@@ -6,6 +6,9 @@ import Home from './components/Home'
 import ArticleNPD from './components/ArticleNPD'
 import ArticleSituation from './components/ArticleSituation'
 import Article6 from './components/Article6'
+import Article3 from './components/Article3'
+import Article4 from './components/Article4'
+import Article5 from './components/Article5'
 import './styles/app.css'
 
 export default function App() {
@@ -91,6 +94,15 @@ export default function App() {
       )}
       {view === 'article-6' && (
         <Article6 onBack={() => navigate('home')} onShare={handleShare} />
+      )}
+      {view === 'article-3' && (
+        <Article3 onBack={() => navigate('home')} onShare={handleShare} />
+      )}
+      {view === 'article-4' && (
+        <Article4 onBack={() => navigate('home')} onShare={handleShare} />
+      )}
+      {view === 'article-5' && (
+        <Article5 onBack={() => navigate('home')} onShare={handleShare} />
       )}
     </>
   )

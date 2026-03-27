@@ -66,14 +66,14 @@ export function ArticleNav({ onBack, onShare }: ArticleNavProps) {
 
 // ── Callout ───────────────────────────────────────────────────────────────
 interface CalloutProps {
-  type?: 'warn' | 'info' | 'key'
-  label: string
+  type?: 'warn' | 'warm' | 'info' | 'key'
+  label?: string
   children: ReactNode
 }
 export function Callout({ type = 'key', label, children }: CalloutProps) {
   return (
     <div className={`callout callout-${type}`}>
-      <div className="callout-label">{label}</div>
+      {label && <div className="callout-label">{label}</div>}
       <div className="callout-body">{children}</div>
     </div>
   )

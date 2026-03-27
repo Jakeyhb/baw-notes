@@ -1,4 +1,4 @@
-export type View = 'home' | 'article-npd' | 'article-situation' | 'article-6'
+export type View = 'home' | 'article-npd' | 'article-situation' | 'article-6' | 'article-3' | 'article-4' | 'article-5'
 
 export interface Article {
   id: View

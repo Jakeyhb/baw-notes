@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
+
+:root {
+  --bg:       #0e0c0b;
+  --bg2:      #141210;
+  --bg3:      #1a1714;
+  --surface:  #1e1a16;
+  --border:   #2a2520;
+  --accent:   #c8855a;
+  --accent2:  #7ba2bc;
+  --text:     #e4ddd4;
+  --muted:    #8a7e70;
+  --shadow:   rgba(0,0,0,0.4);
+  --shadow-md:rgba(0,0,0,0.6);
+  --serif:    'Noto Serif SC', 'STSong', Georgia, serif;
+  --sans:     'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  line-height: 1.7;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+button { font-family: inherit; cursor: pointer; border: none; background: none; }
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+em { font-style: normal; color: var(--accent); }
+strong { font-weight: 700; color: var(--text); }

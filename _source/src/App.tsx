@@ -5,6 +5,7 @@ import Login from './components/Login'
 import Home from './components/Home'
 import ArticleNPD from './components/ArticleNPD'
 import ArticleSituation from './components/ArticleSituation'
+import Article6 from './components/Article6'
 import './styles/app.css'
 
 export default function App() {
@@ -87,6 +88,9 @@ export default function App() {
       )}
       {view === 'article-situation' && (
         <ArticleSituation onBack={() => navigate('home')} onShare={handleShare} />
+      )}
+      {view === 'article-6' && (
+        <Article6 onBack={() => navigate('home')} onShare={handleShare} />
       )}
     </>
   )

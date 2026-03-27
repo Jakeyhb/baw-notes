@@ -24,6 +24,17 @@ const articles = [
     emoji: '💙',
     accentColor: 'var(--accent2)',
   },
+  {
+    id: 'article-6' as View,
+    num: '03',
+    title: '那些总让你觉得自己不够好的人',
+    subtitle: '他们不一定真的比你优秀，但他们非常擅长用一种气场，让你在关系里持续消耗、持续怀疑自己。',
+    date: '2026年3月27日',
+    readTime: '约 13 分钟',
+    tags: ['情绪心理', '人际关系', '自我价值'],
+    emoji: '🔮',
+    accentColor: 'var(--accent)',
+  },
 ]
 
 interface Props {
